@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj": {}
+  },
+  "projects": {
+    "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
+        "projectName": "GameCharacterTrackerApi",
+        "projectPath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
+        "packagesPath": "/Users/shpatdev/.nuget/packages/",
+        "outputPath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/shpatdev/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net10.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net10.0": {
+            "framework": "net10.0",
+            "targetAlias": "net10.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "10.0.400"
+      },
+      "frameworks": {
+        "net10.0": {
+          "framework": "net10.0",
+          "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[10.0.13, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[10.0.13, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[10.0.13, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "Microsoft.Identity.Web.DownstreamApi": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/shpatdev/.dotnet/sdk/10.0.402/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
