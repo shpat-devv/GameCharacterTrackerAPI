@@ -1,6 +1,6 @@
 namespace GameCharacterTrackerApi.Models;
 
-//id, name, game, role, power, rating
+//TODO: Add string length limit
 public class GameCharacter
 {
     public required int Id { get; set; }
