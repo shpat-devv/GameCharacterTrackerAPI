@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RKKa07U+sJo=",
+  "dgSpecHash": "ixigrbNFIlY=",
   "success": true,
   "projectFilePath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
   "expectedPackageFiles": [
@@ -8,28 +8,18 @@
     "/Users/shpatdev/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
     "/Users/shpatdev/.nuget/packages/azure.security.keyvault.certificates/4.6.0/azure.security.keyvault.certificates.4.6.0.nupkg.sha512",
     "/Users/shpatdev/.nuget/packages/azure.security.keyvault.secrets/4.6.0/azure.security.keyvault.secrets.4.6.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/10.0.13/microsoft.aspnetcore.authentication.jwtbearer.10.0.13.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/10.0.13/microsoft.aspnetcore.authentication.openidconnect.10.0.13.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.aspnetcore.cryptography.internal/9.0.0/microsoft.aspnetcore.cryptography.internal.9.0.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.aspnetcore.dataprotection/9.0.0/microsoft.aspnetcore.dataprotection.9.0.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.aspnetcore.dataprotection.abstractions/9.0.0/microsoft.aspnetcore.dataprotection.abstractions.9.0.0.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/9.0.0/microsoft.aspnetcore.authentication.jwtbearer.9.0.0.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/9.0.0/microsoft.aspnetcore.authentication.openidconnect.9.0.0.nupkg.sha512",
     "/Users/shpatdev/.nuget/packages/microsoft.aspnetcore.openapi/10.0.13/microsoft.aspnetcore.openapi.10.0.13.nupkg.sha512",
     "/Users/shpatdev/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.bcl.cryptography/10.0.2/microsoft.bcl.cryptography.10.0.2.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.0/microsoft.extensions.caching.abstractions.9.0.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.extensions.caching.memory/9.0.0/microsoft.extensions.caching.memory.9.0.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0/microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.extensions.configuration.binder/9.0.0/microsoft.extensions.configuration.binder.9.0.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0/microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.extensions.diagnostics.abstractions/9.0.0/microsoft.extensions.diagnostics.abstractions.9.0.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.extensions.fileproviders.abstractions/9.0.0/microsoft.extensions.fileproviders.abstractions.9.0.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.extensions.hosting.abstractions/9.0.0/microsoft.extensions.hosting.abstractions.9.0.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.extensions.logging/9.0.0/microsoft.extensions.logging.9.0.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.0/microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.extensions.options/9.0.0/microsoft.extensions.options.9.0.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.extensions.options.configurationextensions/9.0.0/microsoft.extensions.options.configurationextensions.9.0.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/microsoft.data.sqlite.core/10.0.14/microsoft.data.sqlite.core.10.0.14.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/microsoft.entityframeworkcore/10.0.14/microsoft.entityframeworkcore.10.0.14.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/microsoft.entityframeworkcore.abstractions/10.0.14/microsoft.entityframeworkcore.abstractions.10.0.14.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.14/microsoft.entityframeworkcore.analyzers.10.0.14.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/microsoft.entityframeworkcore.relational/10.0.14/microsoft.entityframeworkcore.relational.10.0.14.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/microsoft.entityframeworkcore.sqlite/10.0.14/microsoft.entityframeworkcore.sqlite.10.0.14.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/10.0.14/microsoft.entityframeworkcore.sqlite.core.10.0.14.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/microsoft.extensions.dependencymodel/10.0.14/microsoft.extensions.dependencymodel.10.0.14.nupkg.sha512",
     "/Users/shpatdev/.nuget/packages/microsoft.identity.abstractions/9.3.0/microsoft.identity.abstractions.9.3.0.nupkg.sha512",
     "/Users/shpatdev/.nuget/packages/microsoft.identity.client/4.83.1/microsoft.identity.client.4.83.1.nupkg.sha512",
     "/Users/shpatdev/.nuget/packages/microsoft.identity.client.extensions.msal/4.61.3/microsoft.identity.client.extensions.msal.4.61.3.nupkg.sha512",
@@ -40,30 +30,25 @@
     "/Users/shpatdev/.nuget/packages/microsoft.identity.web.downstreamapi/3.15.1/microsoft.identity.web.downstreamapi.3.15.1.nupkg.sha512",
     "/Users/shpatdev/.nuget/packages/microsoft.identity.web.tokenacquisition/3.15.1/microsoft.identity.web.tokenacquisition.3.15.1.nupkg.sha512",
     "/Users/shpatdev/.nuget/packages/microsoft.identity.web.tokencache/3.15.1/microsoft.identity.web.tokencache.3.15.1.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.identitymodel.abstractions/8.19.2/microsoft.identitymodel.abstractions.8.19.2.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.19.2/microsoft.identitymodel.jsonwebtokens.8.19.2.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.identitymodel.logging/8.19.2/microsoft.identitymodel.logging.8.19.2.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/microsoft.identitymodel.abstractions/8.14.0/microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.14.0/microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/microsoft.identitymodel.logging/8.14.0/microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
     "/Users/shpatdev/.nuget/packages/microsoft.identitymodel.loggingextensions/8.14.0/microsoft.identitymodel.loggingextensions.8.14.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.identitymodel.protocols/8.19.2/microsoft.identitymodel.protocols.8.19.2.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/8.19.2/microsoft.identitymodel.protocols.openidconnect.8.19.2.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/microsoft.identitymodel.tokens/8.19.2/microsoft.identitymodel.tokens.8.19.2.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/microsoft.identitymodel.protocols/8.14.0/microsoft.identitymodel.protocols.8.14.0.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/8.14.0/microsoft.identitymodel.protocols.openidconnect.8.14.0.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/microsoft.identitymodel.tokens/8.14.0/microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
     "/Users/shpatdev/.nuget/packages/microsoft.identitymodel.validators/8.14.0/microsoft.identitymodel.validators.8.14.0.nupkg.sha512",
     "/Users/shpatdev/.nuget/packages/microsoft.openapi/2.12.2/microsoft.openapi.2.12.2.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/scalar.aspnetcore/2.19.0/scalar.aspnetcore.2.19.0.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.13/sqlitepclraw.bundle_e_sqlite3.2.1.13.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/sqlitepclraw.core/2.1.13/sqlitepclraw.core.2.1.13.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.13/sqlitepclraw.lib.e_sqlite3.2.1.13.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.13/sqlitepclraw.provider.e_sqlite3.2.1.13.nupkg.sha512",
     "/Users/shpatdev/.nuget/packages/system.clientmodel/1.0.0/system.clientmodel.1.0.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/system.diagnostics.diagnosticsource/6.0.1/system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/system.formats.asn1/9.0.0/system.formats.asn1.9.0.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/system.identitymodel.tokens.jwt/8.19.2/system.identitymodel.tokens.jwt.8.19.2.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/shpatdev/.nuget/packages/system.identitymodel.tokens.jwt/8.14.0/system.identitymodel.tokens.jwt.8.14.0.nupkg.sha512",
     "/Users/shpatdev/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/Users/shpatdev/.nuget/packages/system.security.cryptography.pkcs/9.0.15/system.security.cryptography.pkcs.9.0.15.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/system.security.cryptography.protecteddata/4.7.0/system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/system.security.cryptography.xml/9.0.15/system.security.cryptography.xml.9.0.15.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/system.text.encodings.web/4.7.2/system.text.encodings.web.4.7.2.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/system.text.json/8.0.5/system.text.json.8.0.5.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/Users/shpatdev/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512"
+    "/Users/shpatdev/.nuget/packages/system.security.cryptography.protecteddata/4.7.0/system.security.cryptography.protecteddata.4.7.0.nupkg.sha512"
   ],
   "logs": [
     {
@@ -86,102 +71,6 @@
       "warningLevel": 1,
       "filePath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
       "libraryId": "System.Security.Cryptography.Pkcs",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'System.Security.Cryptography.Xml' 9.0.15 has a known high severity vulnerability, https://github.com/advisories/GHSA-23rf-6693-g89p",
-      "projectPath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
-      "warningLevel": 1,
-      "filePath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
-      "libraryId": "System.Security.Cryptography.Xml",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'System.Security.Cryptography.Xml' 9.0.15 has a known high severity vulnerability, https://github.com/advisories/GHSA-7hqp-7c5m-4vq6",
-      "projectPath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
-      "warningLevel": 1,
-      "filePath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
-      "libraryId": "System.Security.Cryptography.Xml",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'System.Security.Cryptography.Xml' 9.0.15 has a known high severity vulnerability, https://github.com/advisories/GHSA-8q5v-6pqq-x66h",
-      "projectPath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
-      "warningLevel": 1,
-      "filePath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
-      "libraryId": "System.Security.Cryptography.Xml",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'System.Security.Cryptography.Xml' 9.0.15 has a known high severity vulnerability, https://github.com/advisories/GHSA-c399-9853-6jmj",
-      "projectPath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
-      "warningLevel": 1,
-      "filePath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
-      "libraryId": "System.Security.Cryptography.Xml",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'System.Security.Cryptography.Xml' 9.0.15 has a known high severity vulnerability, https://github.com/advisories/GHSA-cvvh-rhrc-wg4q",
-      "projectPath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
-      "warningLevel": 1,
-      "filePath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
-      "libraryId": "System.Security.Cryptography.Xml",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'System.Security.Cryptography.Xml' 9.0.15 has a known high severity vulnerability, https://github.com/advisories/GHSA-g8r8-53c2-pm3f",
-      "projectPath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
-      "warningLevel": 1,
-      "filePath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
-      "libraryId": "System.Security.Cryptography.Xml",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'System.Security.Cryptography.Xml' 9.0.15 has a known high severity vulnerability, https://github.com/advisories/GHSA-mmjf-rqrv-855v",
-      "projectPath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
-      "warningLevel": 1,
-      "filePath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
-      "libraryId": "System.Security.Cryptography.Xml",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'System.Security.Cryptography.Xml' 9.0.15 has a known high severity vulnerability, https://github.com/advisories/GHSA-r955-8q5j-3h83",
-      "projectPath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
-      "warningLevel": 1,
-      "filePath": "/Users/shpatdev/RiderProjects/GameCharacterTrackerApi/GameCharacterTrackerApi/GameCharacterTrackerApi.csproj",
-      "libraryId": "System.Security.Cryptography.Xml",
       "targetGraphs": [
         "net10.0"
       ]

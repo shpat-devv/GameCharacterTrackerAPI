@@ -1,4 +1,4 @@
-@GameCharacterTrackerApi_HostAddress = http://localhost:5279
+@GameCharacterTrackerApi_HostAddress = https://127.0.0.1:7270
 
 GET {{GameCharacterTrackerApi_HostAddress}}/weatherforecast/
 Accept: application/json
