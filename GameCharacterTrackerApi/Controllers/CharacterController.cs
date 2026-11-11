@@ -9,7 +9,7 @@ namespace GameCharacterTrackerApi.Controllers;
 [Route("api/characters")]
 public class CharacterController : ControllerBase
 {
-    //inherit db context reference
+    //inherit db context
     private readonly AppDbContext _db;
     
     public CharacterController(AppDbContext db)
@@ -20,7 +20,6 @@ public class CharacterController : ControllerBase
     [HttpGet]
     public async Task<ActionResult<List<GameCharacter>>> GetCharacters()
     {
-        //non Dto for now
         return await _db.GameCharacters.ToListAsync();
     }
     
