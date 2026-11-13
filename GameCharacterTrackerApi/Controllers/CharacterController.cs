@@ -32,16 +32,42 @@ public class CharacterController : ControllerBase
         return CreatedAtAction(nameof(GetCharacters), new { id = character.Id }, character);
     }
 
-    /*
+    
     [HttpPut("id:int")]
-    public async Task<IActionResult> UpdateProduct(int id, GameCharacter character)
+    public async Task<IActionResult> UpdateCharacter(int id, GameCharacter updatedCharacter)
     {
-        var character = aw
+        var character = await _db.GameCharacters.FindAsync(id);
+
+        if (character is null)
+        {
+            return NotFound();
+        }
+        
+        character.Name = updatedCharacter.Name;
+        character.Game = updatedCharacter.Game;
+        character.Role = updatedCharacter.Role;
+        character.Power = updatedCharacter.Power;
+        character.Rating = updatedCharacter.Rating;
+
+        await _db.SaveChangesAsync();
+
+        return NoContent();
     }
-    
-    
+
+
     [HttpDelete("id:int")]
-    */
-    
-    
+    public async Task<IActionResult> DeleteCharacter(int id)
+    {
+        var character = await _db.GameCharacters.FindAsync(id);
+        
+        if (character is null)
+        {
+            return NotFound();
+        }
+
+        _db.GameCharacters.Remove(character);
+        await _db.SaveChangesAsync();
+
+        return NoContent();
+    }
 }
