@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameCharacterTrackerApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a20715cd2ab297df274f50c78877b94f34785559")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b780a05a7d672386dc5ba64eb4f32c6a37ac939f")]
 [assembly: System.Reflection.AssemblyProductAttribute("GameCharacterTrackerApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GameCharacterTrackerApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

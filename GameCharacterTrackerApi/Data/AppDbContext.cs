@@ -14,4 +14,9 @@ public class AppDbContext : DbContext
     }
 
     public DbSet<GameCharacter> GameCharacters { get; set; } // DbSet is a collection of entities of type GameCharacter
+    
+    public int GetNextId()
+    {
+        return GameCharacters.Max(c => c.Id) + 1;
+    }
 }

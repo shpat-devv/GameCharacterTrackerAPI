@@ -12,17 +12,9 @@ public class CharacterController : ControllerBase
 {
     //inherit db context
     private readonly AppDbContext _db;
-    private int _id;
     public CharacterController(AppDbContext db)
     {
         _db = db;
-        _id = _db.GameCharacters.Max(c => c.Id) ?? 0;
-        Console.WriteLine(_id);
-    }
-    
-    private int GetNextId()
-    {
-        return _id++;
     }
     
     [HttpGet]
@@ -50,7 +42,7 @@ public class CharacterController : ControllerBase
     {
         var newCharacter = new GameCharacter
         {
-            Id = GetNextId(),
+            Id = _db.GetNextId(),
             Name = character.Name,
             Game = character.Game,
             Role = character.Role,
