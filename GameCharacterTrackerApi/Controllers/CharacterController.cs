@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using GameCharacterTrackerApi.Models;
+using GameCharacterTrackerApi.Dtos;
 using GameCharacterTrackerApi.Data;
 
 namespace GameCharacterTrackerApi.Controllers;
@@ -11,10 +12,17 @@ public class CharacterController : ControllerBase
 {
     //inherit db context
     private readonly AppDbContext _db;
-    
+    private int _id;
     public CharacterController(AppDbContext db)
     {
         _db = db;
+        _id = _db.GameCharacters.Max(c => c.Id) ?? 0;
+        Console.WriteLine(_id);
+    }
+    
+    private int GetNextId()
+    {
+        return _id++;
     }
     
     [HttpGet]
@@ -23,18 +31,42 @@ public class CharacterController : ControllerBase
         return await _db.GameCharacters.ToListAsync();
     }
     
-    [HttpPost]
-    public async Task<ActionResult<GameCharacter>> CreateCharacter(GameCharacter character)
+    
+    [HttpGet("{id:int}")]
+    public async Task<ActionResult<GameCharacter>> GetCharacter(int id)
     {
-        _db.GameCharacters.Add(character);
+        var character = await _db.GameCharacters.FindAsync(id);
+        
+        if (character == null)
+        {
+            return NotFound();
+        }
+
+        return character;
+    }
+    
+    [HttpPost]
+    public async Task<ActionResult<GameCharacter>> CreateCharacter(PostCharacterDto character)
+    {
+        var newCharacter = new GameCharacter
+        {
+            Id = GetNextId(),
+            Name = character.Name,
+            Game = character.Game,
+            Role = character.Role,
+            Power = character.Power,
+            Rating = character.Rating
+        };
+
+        _db.GameCharacters.Add(newCharacter);
         await _db.SaveChangesAsync();
     
-        return CreatedAtAction(nameof(GetCharacters), new { id = character.Id }, character);
+        return CreatedAtAction(nameof(GetCharacters), new { id = newCharacter.Id }, character);
     }
 
     
     [HttpPut("id:int")]
-    public async Task<IActionResult> UpdateCharacter(int id, GameCharacter updatedCharacter)
+    public async Task<IActionResult> UpdateCharacter(int id, PostCharacterDto updatedCharacter)
     {
         var character = await _db.GameCharacters.FindAsync(id);
 
